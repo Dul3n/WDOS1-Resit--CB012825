@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Listings</title>
+    <link rel="icon" type="image/png" href="./Pictures/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./Pictures/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./Pictures/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./Pictures/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="./Pictures/favicon/site.webmanifest" />
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body class="upcoming-page">
+    <!-- Main Header -->
+    <header>
+        <div class="logo">
+            <img src="./Pictures/galaxy cinema.png" alt="Theatre Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./aboutus.html">About Us</a></li>
+                <li><a href="./upcoming.html">Upcoming</a></li>
+                <li><a href="./food.html">Food & Prices</a></li>
+                <li><a href="./nowshow.html">Now Showing</a></li>
+                <li><a href="./games.html">Gaming</a></li>
+                <li><a href="./booknow.html" class="active">Book Now</a></li>
+                <li><a href="./faq.html">FAQs</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <!-- === Filter Section === -->
+        <section class="filters">
+
+            <!-- Date Filter -->
+            <div class="filter-item">
+                <label for="date">Date:</label>
+                <select id="date">
+                    <option value="">--Select--</option>
+                    <option>Fri 11</option>
+                    <option>Sat 12</option>
+                </select>
+            </div>
+
+            <!-- Format Filter -->
+            <div class="filter-item">
+                <label for="format">Cinema Format:</label>
+                <select id="format">
+                    <option value="">All Experiences</option>
+                    <option>All</option>
+                    <option>2D</option>
+                    <option>3D</option>
+                </select>
+            </div>
+
+            <!--Cinema Name Filter-->
+            <div class="filter-item">
+                <label for="cinemaname">Cinema Name:</label>
+                <select id="cinemaname">
+                    <option value="">All Movies</option>
+                    <option>A WORKING MAN</option>
+                    <option>SNOW WHITE</option>
+                    <option>A MINECRAFT MOVIE</option>
+                    <option>THE AMATEUR</option>
+                    <option>MUFASA: THE LION KING</option>
+                    <option>MOANA 2</option>
+                    <option>GOOD BAD UGLY (TAMIL)</option>
+                    <option>SIKANDAR (HINDI)</option>
+                    <option>SINNERS</option>
+                    <option>WARFARE</option>
+                </select>
+            </div>
+
+            <!-- Showtimes Filter -->
+            <div class="filter-item">
+                <label for="showtime">Showtimes:</label>
+                <select id="showtime">
+                    <option value="">--Select--</option>
+                    <option>2:00 - 24:00</option>
+                </select>
+            </div>
+        </section>
+
+        <!-- === Cinema Listing Section === -->
+        <section class="cinema-list">
+
+            <!-- Wattala Branch (3 Screens) -->
+            <div class="cinema">
+                <h2>Galaxy Cinema - Wattala</h2>
+
+                <div class="screen">
+                    <h3>Screen 1 - English 2D</h3>
+                    <div class="showtimes">
+                        <button class="showtime">5:00 PM</button>
+                        <button class="showtime">8:00 PM</button>
+                    </div>
+                </div>
+
+                <div class="screen">
+                    <h3>Screen 2 - English 3D</h3>
+                    <div class="showtimes">
+                        <button class="showtime">6:30 PM</button>
+                        <button class="showtime">9:00 PM</button>
+                    </div>
+                </div>
+
+                <div class="screen">
+                    <h3>Screen 3 - Tamil 2D</h3>
+                    <div class="showtimes">
+                        <button class="showtime">4:00 PM</button>
+                        <button class="showtime">7:00 PM</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Matara Branch (2 Screens) -->
+            <div class="cinema">
+                <h2>Galaxy Cinema - Matara</h2>
+
+                <div class="screen">
+                    <h3>Screen 1 - English 3D/2D</h3>
+                    <div class="showtimes">
+                        <button class="showtime">3:00 PM</button>
+                        <button class="showtime">6:00 PM</button>
+                    </div>
+                </div>
+
+                <div class="screen">
+                    <h3>Screen 2 - Tamil 2D</h3>
+                    <div class="showtimes">
+                        <button class="showtime">5:30 PM</button>
+                        <button class="showtime">8:30 PM</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kandy Branch (2 Screens) -->
+            <div class="cinema">
+                <h2>Galaxy Cinema - Kandy</h2>
+
+                <div class="screen">
+                    <h3>Screen 1 - English 2D</h3>
+                    <div class="showtimes">
+                        <button class="showtime">4:30 PM</button>
+                        <button class="showtime">7:45 PM</button>
+                    </div>
+                </div>
+
+                <div class="screen">
+                    <h3>Screen 2 - Tamil 2D</h3>
+                    <div class="showtimes">
+                        <button class="showtime">6:00 PM</button>
+                        <button class="showtime">9:00 PM</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">
+            <img src="/Pictures/galaxy cinema.png" alt="Theatre Logo">
+        </div>
+        <div class="footer-contact">
+            <p>15B/2, Hendala, Wattala</p>
+            <p>Phone: (+94)11-325-7690</p>
+            <p>Fax: (+94) 456-7891</p>
+            <p>Email: galaxycinema@gmail.com</p>
+        </div>
+        <div class="footer-social">
+            <a href="https://web.facebook.com/login.php/?_rdc=1&_rdr#"><img src="/Pictures/social/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/accounts/login/?hl=en"><img src="/Pictures/social/instagram.png" alt="Instagram"></a>
+            <a href="https://x.com/i/flow/login"><img src="/Pictures/social/x.jpg" alt="X"></a>
+        </div>
+    </footer>
+
+</body>
+</html>
